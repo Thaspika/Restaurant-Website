@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-tertiary-container":"#aa8306","outline":"#80756f","on-primary-container":"#96857a","on-primary-fixed-variant":"#52443b","surface-variant":"#e4e2de","on-secondary":"#ffffff","error":"#ba1a1a","on-background":"#1b1c1a","tertiary-container":"#2c1f00","surface-container-highest":"#e4e2de","on-primary-fixed":"#241912","inverse-primary":"#d6c3b6","surface-container-high":"#eae8e4","surface-bright":"#fbf9f5","error-container":"#ffdad6","on-tertiary":"#ffffff","primary-container":"#2a1f17","inverse-surface":"#30312e","on-surface-variant":"#4e453f","on-secondary-container":"#745c00","on-error":"#ffffff","on-secondary-fixed":"#241a00","surface-tint":"#6a5b51","surface-container-lowest":"#ffffff","tertiary":"#0f0900","secondary":"#735c00","tertiary-fixed":"#ffdf98","on-error-container":"#93000a","inverse-on-surface":"#f2f0ed","primary-fixed":"#f3dfd2","surface-dim":"#dbdad6","on-tertiary-fixed":"#251a00","on-secondary-fixed-variant":"#574500","outline-variant":"#d1c4bc","on-tertiary-fixed-variant":"#5a4300","secondary-container":"#fed65b","secondary-fixed-dim":"#e9c349","secondary-fixed":"#ffe088","surface-container":"#efeeea","surface-container-low":"#f5f3ef","on-primary":"#ffffff","on-surface":"#1b1c1a","primary":"#110804","tertiary-fixed-dim":"#eec14b","surface":"#fbf9f5","primary-fixed-dim":"#d6c3b6","background":"#fbf9f5"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-sm":"0.5rem","margin-mobile":"1.25rem","space-md":"1rem","space-xs":"0.25rem","space-lg":"1.75rem","gutter":"1.5rem","gutter-mobile":"1rem","space-xl":"3rem","margin":"3rem"},fontFamily:{"headline-md":["Playfair Display"],"body-sm":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"headline-lg":["Playfair Display"],"label-lg":["Plus Jakarta Sans"],"display-lg-mobile":["Playfair Display"],"label-sm":["Plus Jakarta Sans"],"headline-sm":["Playfair Display"],"headline-lg-mobile":["Playfair Display"],"display-lg":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"]},fontSize:{"headline-md":["26px",{lineHeight:"34px",fontWeight:"500"}],"body-sm":["13px",{lineHeight:"20px",fontWeight:"400"}],"body-lg":["18px",{lineHeight:"28px",fontWeight:"400"}],"headline-lg":["36px",{lineHeight:"44px",letterSpacing:"-0.01em",fontWeight:"600"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.08em",fontWeight:"600"}],"display-lg-mobile":["38px",{lineHeight:"46px",letterSpacing:"-0.01em",fontWeight:"600"}],"label-sm":["10px",{lineHeight:"14px",letterSpacing:"0.1em",fontWeight:"700"}],"headline-sm":["20px",{lineHeight:"28px",fontWeight:"600"}],"headline-lg-mobile":["28px",{lineHeight:"36px",fontWeight:"600"}],"display-lg":["56px",{lineHeight:"64px",letterSpacing:"-0.02em",fontWeight:"600"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.06em",fontWeight:"600"}],"body-md":["15px",{lineHeight:"24px",fontWeight:"400"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-fixed"><header class="fixed top-0 left-0 w-full z-50 bg-primary/95 backdrop-blur-md shadow-[0_4px_24px_rgba(17,8,4,0.35)]"><div class="h-20 max-w-[1320px] mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-space-md"><a class="flex flex-col group cursor-pointer" href="#home"><span class="font-headline-sm text-[22px] font-serif text-[#fbf9f5] tracking-wide leading-none font-semibold">The Golden Spoon</span><span class="font-label-sm text-[9px] text-[#fed65b] tracking-[0.25em] uppercase font-bold mt-1">FINE DINING &amp; HOSPITALITY</span></a><nav class="hidden lg:flex items-center gap-8" id="primary-nav"><a class="nav-link font-label-md text-[13px] uppercase tracking-[0.1em] text-[#fed65b] font-bold border-b-2 border-[#fed65b] pb-1 transition-all duration-200" data-path="home" data-section="home" href="#home">HOME</a><a class="nav-link font-label-md text-[13px] uppercase tracking-[0.1em] hover:text-[#fed65b] border-b-2 pb-1 transition-all duration-200 text-[#efeeea]/80 font-medium border-transparent" data-path="our-story" data-section="about" href="#about">OUR STORY</a><a class="nav-link font-label-md text-[13px] uppercase tracking-[0.1em] hover:text-[#fed65b] border-b-2 pb-1 transition-all duration-200 text-[#efeeea]/80 font-medium border-transparent" data-path="menu" data-section="menu" href="#menu">MENU</a><a class="nav-link font-label-md text-[13px] uppercase tracking-[0.1em] hover:text-[#fed65b] border-b-2 pb-1 transition-all duration-200 text-[#efeeea]/80 font-medium border-transparent" data-path="reserve-table" data-section="reserve" href="#reserve">RESERVE TABLE</a><a class="nav-link font-label-md text-[13px] uppercase tracking-[0.1em] hover:text-[#fed65b] border-b-2 pb-1 transition-all duration-200 text-[#efeeea]/80 font-medium border-transparent" data-path="contact" data-section="contact" href="#contact">CONTACT</a></nav><div class="flex items-center gap-6"><a class="hidden sm:inline-flex items-center gap-2 text-white hover:text-[#fed65b] transition-colors font-label-md text-[13px] tracking-wide font-semibold whitespace-nowrap" href="tel:+919876543210"><span class="material-symbols-outlined text-[18px] text-[#fed65b]">call</span><span>+91 98765 43210</span></a><a class="inline-flex items-center justify-center px-6 py-2.5 rounded-lg bg-[#fed65b] text-[#110804] font-label-md text-[13px] font-bold uppercase tracking-wider hover:bg-[#ffe088] transition-all duration-200 shadow-[0_2px_16px_rgba(254,214,91,0.35)] whitespace-nowrap" href="#reserve">BOOK A TABLE</a><button aria-label="Account" class="text-white hover:text-[#fed65b] transition-colors flex items-center justify-center p-1.5 rounded-full hover:bg-white/10" id="auth-modal-trigger" onclick="openAuthModal()"><span class="material-symbols-outlined text-[24px]">person</span></button></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- HERO SECTION -->
+<section class="relative w-full -mt-20 overflow-hidden bg-primary text-surface selection:bg-secondary-fixed selection:text-primary" id="home">
+<!-- Atmospheric Visual Background with Fine Dining Glow -->
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center opacity-40 mix-blend-luminosity scale-105 transform duration-1000" data-alt="Atmospheric fine dining restaurant interior with ambient warm candlelight, deep espresso wood tables, polished brass accents, and an exquisite Michelin-style dish being delicately plated in soft dramatic chiaroscuro illumination with gold reflections." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD3ci5LES86t8lZ8Ie8ifmOMgTVv9_XsWs9rJq23RpIz0V_D5yyshdSPnZ1bbOBn4AGXRMl-keaBdmZiFQ13utcXw8Fuw5KavtdHYyEpao-ePbTOvIrqFVUMegtpwdT2QA3y73AcSHmL4wrQ4y_e0GQJ8jFaVKH1mtqXxPUwEiyKtYz-cQAzlreVDH_zSX1ejzL9xZk-skawnOQVqX-ALJyqpoU6WhFgpz72RTUWF0");'></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/80 to-primary/60"></div>
+<div class="absolute -top-32 right-1/4 w-96 h-96 rounded-full bg-secondary-fixed/10 blur-[120px] pointer-events-none"></div>
+<div class="absolute bottom-10 left-10 w-[500px] h-[500px] rounded-full bg-secondary-container/10 blur-[150px] pointer-events-none"></div>
+</div>
+<!-- Hero Content -->
+<div class="relative z-10 max-w-[1320px] mx-auto px-margin-mobile lg:px-margin pt-40 pb-28 lg:pb-36 flex flex-col items-center text-center">
+<!-- Tagline Pill -->
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-primary-container/80 backdrop-blur-md shadow-sm mb-space-lg">
+<span class="material-symbols-outlined text-secondary-fixed text-[18px]">hotel_class</span>
+<span class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-[0.25em]">A Culinary Journey Like No Other</span>
+</div>
+<!-- Grand Brand Title & Main Headline -->
+<h1 class="font-headline-lg lg:font-display-lg text-headline-lg lg:text-display-lg text-surface tracking-tight max-w-4xl">
+        The Golden Spoon
+      </h1>
+<p class="font-headline-md text-headline-md text-secondary-fixed mt-space-xs font-normal italic">
+        Where Every Bite Tells a Story.
+      </p>
+<!-- Description -->
+<p class="font-body-lg text-body-lg text-surface-container-high max-w-2xl mt-space-md leading-relaxed">
+        Experience delicious flavors, freshly prepared meals, and unforgettable dining moments orchestrated by master culinary artisans in an intimate sanctuary of warmth.
+      </p>
+<!-- Dual Actions -->
+<div class="flex flex-col sm:flex-row items-center gap-space-md mt-space-xl">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs px-space-xl py-space-md rounded-lg bg-gradient-to-r from-secondary-fixed via-secondary-container to-secondary-fixed-dim text-primary font-label-lg text-label-lg uppercase tracking-widest shadow-[0_4px_24px_rgba(254,214,91,0.3)] hover:shadow-[0_6px_32px_rgba(254,214,91,0.45)] hover:scale-[1.02] transition-all duration-300" href="#menu">
+<span>Explore Our Menu</span>
+<span class="material-symbols-outlined text-[18px]">restaurant_menu</span>
+</a>
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-space-xs px-space-xl py-space-md rounded-lg bg-surface-container-highest/10 hover:bg-surface-container-highest/20 text-secondary-fixed hover:text-surface font-label-lg text-label-lg uppercase tracking-widest transition-all duration-300 backdrop-blur-sm" href="#reserve">
+<span>Book a Table</span>
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+</a>
+</div>
+</div>
+<!-- Feature Pillars Overlap -->
+<div class="relative z-20 max-w-[1320px] mx-auto px-margin-mobile lg:px-margin -mb-16">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md lg:gap-space-lg">
+<!-- Pillar 1 -->
+<div class="flex items-start gap-space-md p-space-lg rounded-xl bg-surface-container-lowest text-on-surface shadow-xl hover:-translate-y-1 transition-transform duration-300">
+<div class="w-12 h-12 rounded-lg bg-secondary-fixed/20 text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[26px]">eco</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-primary tracking-tight">Fresh Ingredients</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs leading-relaxed">Farm-sourced organic produce &amp; authentic heirloom spices harvested daily.</p>
+</div>
+</div>
+<!-- Pillar 2 -->
+<div class="flex items-start gap-space-md p-space-lg rounded-xl bg-surface-container-lowest text-on-surface shadow-xl hover:-translate-y-1 transition-transform duration-300">
+<div class="w-12 h-12 rounded-lg bg-secondary-fixed/20 text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[26px]">skillet</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-primary tracking-tight">Expert Chefs</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs leading-relaxed">Master culinary artisans crafting every course with unyielding precision and passion.</p>
+</div>
+</div>
+<!-- Pillar 3 -->
+<div class="flex items-start gap-space-md p-space-lg rounded-xl bg-surface-container-lowest text-on-surface shadow-xl hover:-translate-y-1 transition-transform duration-300">
+<div class="w-12 h-12 rounded-lg bg-secondary-fixed/20 text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[26px]">award_star</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-primary tracking-tight">Exceptional Taste</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs leading-relaxed">Award-winning signature recipes curated specifically for epicurean connoisseurs.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ABOUT US / OUR STORY SECTION -->
+<section class="w-full bg-surface pt-32 pb-24 lg:pb-32 overflow-hidden" id="about">
+<div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin">
+<!-- Section Header Eyebrow -->
+<div class="flex flex-col items-start mb-space-xl">
+<span class="font-label-md text-label-md uppercase tracking-[0.2em] text-secondary font-bold">Discover Our Heritage</span>
+<h2 class="font-headline-lg lg:font-display-lg text-headline-lg lg:text-display-lg text-primary tracking-tight mt-space-xs">
+          Our Story
+        </h2>
+<div class="h-1 w-20 bg-secondary-fixed mt-space-sm rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Left Editorial Narrative & Highlights -->
+<div class="lg:col-span-7 flex flex-col gap-space-lg">
+<div class="space-y-space-md">
+<p class="font-headline-sm text-headline-sm text-primary leading-snug font-serif italic">
+              "At The Golden Spoon, we believe great food brings people together. Our journey began with a passion for creating memorable dining experiences through fresh ingredients, authentic flavors, and excellent hospitality."
+            </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Founded over a decade ago in the cultural heart of Chennai, our sanctuary pairs regal heritage culinary techniques with avant-garde gastronomic presentation. Every dish is orchestrated like a symphony—harmonizing fragrant saffron, cold-pressed artisanal oils, hand-ground masalas, and pristine organic microgreens sourced directly from heritage regional farms.
+            </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              From our intimate private cellars to our candlelit banquet alcoves, we curate multisensory memories designed to elevate family reunions, romantic evenings, and celebratory milestones into indelible memories.
+            </p>
+</div>
+<!-- 4 Core Highlight Cards -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md pt-space-sm">
+<div class="p-space-md rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors duration-200">
+<div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[20px]">workspace_premium</span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary font-bold">Quality Ingredients</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Locally sourced, organic, and artisanal produce procured at peak freshness daily.</p>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors duration-200">
+<div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[20px]">cooking</span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary font-bold">Passionate Chefs</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Trained in prestigious kitchens worldwide, applying meticulous culinary craft.</p>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors duration-200">
+<div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[20px]">sentiment_very_satisfied</span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary font-bold">Friendly Service</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Warm, attentive, and anticipatory hospitality that welcomes you like esteemed royalty.</p>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors duration-200">
+<div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[20px]">celebration</span>
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary font-bold">Memorable Moments</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">An enchanting ambiance meticulously sculpted for birthdays, date nights, and milestones.</p>
+</div>
+</div>
+<!-- Chef Signature Block -->
+<div class="flex items-center justify-between pt-space-md bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-secondary-fixed">
+<span class="material-symbols-outlined text-[24px]">person_celebrate</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary leading-tight font-serif">Chef Aravind Singhania</span>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest mt-space-xs">Executive Culinary Director</span>
+</div>
+</div>
+<!-- Decorative SVG Signature Mockup -->
+<svg class="h-10 w-28 text-secondary/60 hidden sm:block" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 120 40">
+<path d="M5 25 C20 10, 30 35, 45 15 C55 5, 60 30, 80 20 C95 12, 105 28, 115 15" stroke-linecap="round"></path>
+<path d="M25 28 C45 30, 75 32, 95 30" stroke-linecap="round"></path>
+</svg>
+</div>
+</div>
+<!-- Right Layered Photography Showcase -->
+<div class="lg:col-span-5 relative">
+<!-- Main Ambient Restaurant Interior -->
+<div class="relative w-full aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl bg-primary-container">
+<img class="w-full h-full object-cover" data-alt="Grand fine dining restaurant interior with majestic crystal chandeliers, warm candlelit tables set with gold cutlery, wine glasses, velvet banquet seating, and deep roasted espresso mahogany wood accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzhhk3fiiu7NHYyMXn6m0aLxfZTEYQtZNzGOeSKLt1NESz_YLrz8ozQLzAzMuiy-K2d9fGgymtSYihWKSnp13IrtIY2d4XMXRzQjgAeHDnOJvTHtfA9Zyvf1ZZ2KP5xwb0LKYS015LAjuRHMXM5Cmwf1nd9dnvO82Gm94AmVna_G5Xsh3KArO13zhqSAlbfCymUuw0jORbCDkGNnMEJMUCRXu6IGGBBFWuAV7fAmM"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+</div>
+<!-- Overlapping Chef In Action Secondary Card -->
+<div class="absolute -bottom-8 -left-6 sm:-left-10 w-3/5 aspect-square rounded-2xl overflow-hidden shadow-2xl bg-primary-container hidden sm:block">
+<img class="w-full h-full object-cover" data-alt="Close-up of an artisan master chef in pristine black uniform using tweezers to delicately garnish a gourmet dish with gold leaf, micro herbs, and aromatic saffron reduction." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAd31XRX8VSfU8_5R9fvtbtKMSlPOzr2zfUhSsoVs-x6neCVUE67Qfu_V3aAG4O4H2GDthxGclJuV4vDubQ_QYUCIQHP4E6Lc8EJhrlctCPS5Zd78ZVH92gC17p5P4CpcFomMjFXoj9VaS1GZv67tB6X8cAxs8HZpmsefhozaFTlx8eI9dN8TRfMF8Gh0LeIbnEr3Cs7kkpLwprGSXa7ZEMxJWgvgSuSZ_iNMLExEU"/>
+</div>
+<!-- Floating Heritage Badge -->
+<div class="absolute -top-6 -right-4 sm:-right-6 bg-primary text-secondary-fixed p-space-md rounded-2xl shadow-2xl flex flex-col items-center justify-center text-center">
+<span class="material-symbols-outlined text-[28px] text-secondary-fixed">restaurant</span>
+<span class="font-headline-sm text-headline-sm text-surface font-serif mt-space-xs">Est. 2012</span>
+<span class="font-label-sm text-label-sm text-secondary-fixed-dim uppercase tracking-wider">14+ Years of Excellence</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- MENU SECTION -->
+<section class="w-full bg-surface-container-low py-24 lg:py-32 selection:bg-secondary-fixed selection:text-primary" id="menu">
+<div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin">
+<!-- Section Header -->
+<div class="flex flex-col items-center text-center mb-space-xl">
+<span class="font-label-md text-label-md uppercase tracking-[0.2em] text-secondary font-bold">Culinary Excellence</span>
+<h2 class="font-headline-lg lg:font-display-lg text-headline-lg lg:text-display-lg text-primary tracking-tight mt-space-xs">
+          Explore Our Menu
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl mt-space-xs">
+          Carefully curated seasonal delicacies prepared fresh on order with bespoke farm harvests and royal heritage spices.
+        </p>
+<div class="h-1 w-20 bg-secondary-fixed mt-space-md rounded-full"></div>
+<!-- Interactive Category Filter Tabs -->
+<div class="flex flex-wrap items-center justify-center gap-space-xs sm:gap-space-sm mt-space-xl p-space-xs rounded-full bg-surface-container shadow-sm" id="menu-category-tabs">
+<button class="menu-tab-btn active-tab px-space-md sm:px-space-lg py-space-xs rounded-full font-label-md text-label-md uppercase tracking-wider transition-all duration-200 bg-secondary-fixed text-primary shadow-sm font-bold" data-filter="all">
+            All Items
+          </button>
+<button class="menu-tab-btn px-space-md sm:px-space-lg py-space-xs rounded-full font-label-md text-label-md uppercase tracking-wider transition-all duration-200 text-on-surface-variant hover:text-primary hover:bg-surface-variant font-medium" data-filter="starters">
+            Starters
+          </button>
+<button class="menu-tab-btn px-space-md sm:px-space-lg py-space-xs rounded-full font-label-md text-label-md uppercase tracking-wider transition-all duration-200 text-on-surface-variant hover:text-primary hover:bg-surface-variant font-medium" data-filter="mains">
+            Main Course
+          </button>
+<button class="menu-tab-btn px-space-md sm:px-space-lg py-space-xs rounded-full font-label-md text-label-md uppercase tracking-wider transition-all duration-200 text-on-surface-variant hover:text-primary hover:bg-surface-variant font-medium" data-filter="desserts">
+            Desserts
+          </button>
+<button class="menu-tab-btn px-space-md sm:px-space-lg py-space-xs rounded-full font-label-md text-label-md uppercase tracking-wider transition-all duration-200 text-on-surface-variant hover:text-primary hover:bg-surface-variant font-medium" data-filter="beverages">
+            Beverages
+          </button>
+</div>
+</div>
+<!-- Food Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg" id="menu-grid">
+<!-- ITEM 1: Crispy Veg Spring Rolls -->
+<div class="menu-item-card flex flex-col rounded-2xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group" data-category="starters">
+<div class="relative h-56 w-full overflow-hidden bg-primary-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Platter of golden crisp vegetable spring rolls cut on bias revealing julienned carrots, cabbage, and bell peppers, garnished with coriander and served with sweet chili dipping sauce in a porcelain ramekin." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-JK8l6gnTDmv1IEDYv5578KChupwA9ipuMBO0uvjqG_T6T0ZNDpQlcZVQROqYcUkLAgDusXnADi9vr5-ZKQSxNm24xygNZg0wm-dfgJ9r0RNu0Fxc0Q0MBdrbXaavC3hpCpW2lbJYaxgF4a9tktUvRyB2Fb0jU2R8lRaXTKnlBFr85kaWKK7awEkE1dH8kUgyk7Ogcka9adwt-cM50Zf-y0nbPJqVDIZ-aZPXDIw"/>
+<span class="absolute top-4 left-4 px-space-sm py-1 rounded-full bg-primary/90 text-secondary-fixed text-label-sm font-label-sm uppercase tracking-wider">Starter</span>
+<div class="absolute bottom-3 right-3 flex items-center gap-1 bg-surface-container-lowest/95 px-2 py-0.5 rounded-md shadow">
+<span class="material-symbols-outlined text-[14px] text-secondary" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">4.9</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-baseline justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary">Crispy Veg Spring Rolls</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-serif font-bold">₹149</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs leading-relaxed">
+                Golden crisp rolls filled with julienned garden vegetables and aromatic herbs, served with sweet chili dip.
+              </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between bg-surface-container-low/50 -mx-space-lg -mb-space-lg p-space-md">
+<span class="font-label-sm text-label-sm uppercase text-outline">Chef Recommends</span>
+<button class="inline-flex items-center gap-1 px-space-md py-1.5 rounded-lg bg-primary hover:bg-primary-container text-surface hover:text-secondary-fixed transition-colors font-label-sm text-label-sm uppercase tracking-wider" onclick="handleAddToOrder('Crispy Veg Spring Rolls', '₹149')">
+<span>Add</span>
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- ITEM 2: Paneer Tikka -->
+<div class="menu-item-card flex flex-col rounded-2xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group" data-category="starters">
+<div class="relative h-56 w-full overflow-hidden bg-primary-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Traditional clay oven tandoori paneer tikka cubes with charred edges skewered with roasted capsicum, red onions, served on an artisan dark stoneware plate with spicy mint coriander chutney and lemon wedge." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC98MVfliV60wnHfHk2AnvFeKhd7-jPDiJjIC5ZpB9Ge8J1BiJFj0FldcuImcFzoii5NttMF9GYS_9Vom-42OlMDj6JQ9w_pcbo4vLg8wMRNG4O4qE8Vv8CnY6vJUeILErdzuZ41IN2lx72yYyvl-Q-YB0M_IuhcaE3leu_K1XWRwdOk-xMrdIdRbtzywW4Z0GR50S1jkGE7THssE-qDppqHUzr_xFCe_K22tzSkgY"/>
+<span class="absolute top-4 left-4 px-space-sm py-1 rounded-full bg-primary/90 text-secondary-fixed text-label-sm font-label-sm uppercase tracking-wider">Starter</span>
+<div class="absolute bottom-3 right-3 flex items-center gap-1 bg-surface-container-lowest/95 px-2 py-0.5 rounded-md shadow">
+<span class="material-symbols-outlined text-[14px] text-secondary" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">4.9</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-baseline justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary">Paneer Tikka</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-serif font-bold">₹199</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs leading-relaxed">
+                Charcoal-grilled cottage cheese cubes marinated in spiced tandoori yogurt with bell peppers and mint chutney.
+              </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between bg-surface-container-low/50 -mx-space-lg -mb-space-lg p-space-md">
+<span class="font-label-sm text-label-sm uppercase text-outline">Clay Oven Roasted</span>
+<button class="inline-flex items-center gap-1 px-space-md py-1.5 rounded-lg bg-primary hover:bg-primary-container text-surface hover:text-secondary-fixed transition-colors font-label-sm text-label-sm uppercase tracking-wider" onclick="handleAddToOrder('Paneer Tikka', '₹199')">
+<span>Add</span>
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- ITEM 3: Garlic Bread -->
+<div class="menu-item-card flex flex-col rounded-2xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group" data-category="starters">
+<div class="relative h-56 w-full overflow-hidden bg-primary-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Warm artisanal sourdough garlic bread slices toasted to a rich golden brown with melted stringy aged mozzarella cheese, roasted garlic butter pearls, and freshly flecked Italian parsley." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5zwpMSqQG7eZC47_zfmMLmroDAwaZYPC_Gu-Rb9MPY2Nj-jjKW9O7VKq82Ii3bXBtoJZUqgTL5IU7xOz4IfvctVa-_ZpwNOJrva9hRrqpgDFkLUsCiir6WSWnHkMPyLV-gtmpD6nEUtaYiY39P-Ay5FbLmU5DoTO8deWw4zdeQX8vQS4sdD8oNdlKntZiHmqagFUYHMALbZIUT_kBt6c5eRNIFDmfppZ45E20Cbw"/>
+<span class="absolute top-4 left-4 px-space-sm py-1 rounded-full bg-primary/90 text-secondary-fixed text-label-sm font-label-sm uppercase tracking-wider">Starter</span>
+<div class="absolute bottom-3 right-3 flex items-center gap-1 bg-surface-container-lowest/95 px-2 py-0.5 rounded-md shadow">
+<span class="material-symbols-outlined text-[14px] text-secondary" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">4.8</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-baseline justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary">Garlic Bread</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-serif font-bold">₹129</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs leading-relaxed">
+                Artisanal toasted sourdough loaf infused with crushed roasted garlic butter, fresh parsley, and melted aged mozzarella.
+              </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between bg-surface-container-low/50 -mx-space-lg -mb-space-lg p-space-md">
+<span class="font-label-sm text-label-sm uppercase text-outline">Wood Fired</span>
+<button class="inline-flex items-center gap-1 px-space-md py-1.5 rounded-lg bg-primary hover:bg-primary-container text-surface hover:text-secondary-fixed transition-colors font-label-sm text-label-sm uppercase tracking-wider" onclick="handleAddToOrder('Garlic Bread', '₹129')">
+<span>Add</span>
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- ITEM 4: Vegetable Biryani -->
+<div class="menu-item-card flex flex-col rounded-2xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group" data-category="mains">
+<div class="relative h-56 w-full overflow-hidden bg-primary-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Royal Dum Vegetable Biryani served in a brass handi bowl featuring long grain aged Basmati rice layered with vibrant saffron, caramelized onions, cashews, tender seasonal vegetables, and a side of cold cucumber raita." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfLFPjPTo9T5sjqqwcBVrDbkibMJK4Z1fG_Y_Ib2fzklhVAo6BFnK7c0TvZ7E1EvPTyqKgdlsVfJP4OOQoOuBcpyvyv1pirm5QeCZzUO-1zd-JkpieKi0MmY3RH3BX3UNlLgThVT-ySMDoQX2zHGw4euaxNmli_8i3VhjI5XS04zzyqZKUXjV6d0AICSLl_Isx59KkfYsmSjmHV7blk0roP65rUyZGmAmL_qGd-RM"/>
+<span class="absolute top-4 left-4 px-space-sm py-1 rounded-full bg-primary/90 text-secondary-fixed text-label-sm font-label-sm uppercase tracking-wider">Main Course</span>
+<div class="absolute bottom-3 right-3 flex items-center gap-1 bg-surface-container-lowest/95 px-2 py-0.5 rounded-md shadow">
+<span class="material-symbols-outlined text-[14px] text-secondary" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">5.0</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-baseline justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary">Vegetable Biryani</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-serif font-bold">₹249</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs leading-relaxed">
+                Fragrant aged Basmati rice layered with royal saffron, garden veggies, and slow-cooked caramelized spices, with cucumber raita.
+              </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between bg-surface-container-low/50 -mx-space-lg -mb-space-lg p-space-md">
+<span class="font-label-sm text-label-sm uppercase text-outline">Dum Pukht Style</span>
+<button class="inline-flex items-center gap-1 px-space-md py-1.5 rounded-lg bg-primary hover:bg-primary-container text-surface hover:text-secondary-fixed transition-colors font-label-sm text-label-sm uppercase tracking-wider" onclick="handleAddToOrder('Vegetable Biryani', '₹249')">
+<span>Add</span>
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- ITEM 5: Paneer Butter Masala -->
+<div class="menu-item-card flex flex-col rounded-2xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group" data-category="mains">
+<div class="relative h-56 w-full overflow-hidden bg-primary-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Rich decadent Paneer Butter Masala curry served in a black stoneware dish, topped with a swirl of fresh dairy cream, crushed kasuri methi, and micro cilantro sprigs beside hot butter naan." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBRNCWfAYJsuBwT9sNuzf-3iqIWteePpI9i_MRXpZFm2m1GQu_kqGnmwWi0TrnGdGzSxl6CqUMm4lfsNNTWzuRJyq5j7sf6n2GyQOe_L1z1EPu0RTPAnYVKcv3zg7oknMwqtaEjVlMz-2mZMGg74E1-m2S9qUYYO7pQrCQ-W0G50k3Rwwp24jzNjFtFKQ3E7Pl2eifHJ6OrARc7GQp7Iqopa2YwlvC4z99YSz4jgk"/>
+<span class="absolute top-4 left-4 px-space-sm py-1 rounded-full bg-primary/90 text-secondary-fixed text-label-sm font-label-sm uppercase tracking-wider">Main Course</span>
+<div class="absolute bottom-3 right-3 flex items-center gap-1 bg-surface-container-lowest/95 px-2 py-0.5 rounded-md shadow">
+<span class="material-symbols-outlined text-[14px] text-secondary" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">4.9</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-baseline justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary">Paneer Butter Masala</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-serif font-bold">₹279</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs leading-relaxed">
+                Tender cottage cheese simmered in a velvet tomato, cashew nut, and creamy butter gravy finished with fenugreek.
+              </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between bg-surface-container-low/50 -mx-space-lg -mb-space-lg p-space-md">
+<span class="font-label-sm text-label-sm uppercase text-outline">Signature Gravy</span>
+<button class="inline-flex items-center gap-1 px-space-md py-1.5 rounded-lg bg-primary hover:bg-primary-container text-surface hover:text-secondary-fixed transition-colors font-label-sm text-label-sm uppercase tracking-wider" onclick="handleAddToOrder('Paneer Butter Masala', '₹279')">
+<span>Add</span>
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- ITEM 6: Special Veg Fried Rice -->
+<div class="menu-item-card flex flex-col rounded-2xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group" data-category="mains">
+<div class="relative h-56 w-full overflow-hidden bg-primary-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Artfully tossed wok vegetable fried rice glistening with sesame oil, colorful diced bell peppers, carrots, crisp scallions, edamame beans, and roasted garlic chips in an oriental bowl." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDmMskcgNgTsq-qpuZatqJv0XZUedOcP3LcXoFJwl9CkzvA0iRLRQdfWuwmDgtPEYH08Vl0GjKWC8_xm3PPw1qKnvY5eGYCLGgKQWmlq7I29bMShjJpkpUMXWLLJ4ROMcM7VztLbsY185jix5Jx97iXBJh7ge2byNdryf0cjaxRTRPkJgIIhup4pMO11Oyi4_zkssLaIX51u8ZTfI4Hgjex2IKK9BPU14lJ3RfeJpM"/>
+<span class="absolute top-4 left-4 px-space-sm py-1 rounded-full bg-primary/90 text-secondary-fixed text-label-sm font-label-sm uppercase tracking-wider">Main Course</span>
+<div class="absolute bottom-3 right-3 flex items-center gap-1 bg-surface-container-lowest/95 px-2 py-0.5 rounded-md shadow">
+<span class="material-symbols-outlined text-[14px] text-secondary" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">4.8</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-baseline justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary">Special Veg Fried Rice</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-serif font-bold">₹219</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs leading-relaxed">
+                Wok-tossed long-grain jasmine rice with crunchy seasonal vegetables, scallions, and light sesame soy glaze.
+              </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between bg-surface-container-low/50 -mx-space-lg -mb-space-lg p-space-md">
+<span class="font-label-sm text-label-sm uppercase text-outline">Wok Hei Scented</span>
+<button class="inline-flex items-center gap-1 px-space-md py-1.5 rounded-lg bg-primary hover:bg-primary-container text-surface hover:text-secondary-fixed transition-colors font-label-sm text-label-sm uppercase tracking-wider" onclick="handleAddToOrder('Special Veg Fried Rice', '₹219')">
+<span>Add</span>
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- ITEM 7: Chocolate Brownie -->
+<div class="menu-item-card flex flex-col rounded-2xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group" data-category="desserts">
+<div class="relative h-56 w-full overflow-hidden bg-primary-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Decadent warm molten Belgian dark chocolate fudge brownie with a glossy dark chocolate drizzle, served alongside a quenelle of Madagascar vanilla bean gelato and edible gold leaf flake." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUhPedvJQw4hKmMSdSVnOtDtjGZyJ0eUV_n4W0FF0u58K4gXDHtfubg3Mej-NBYxb5RGODEJcEcbnpmM6DmtIq1LMAZGC-hiHklmvxWzZcXtlb_j4elb9cAnank9SSxjtDL_uLUFUQnNKkFFIkX4RiPW6EHCu7mAFcfwHLAfSXIVojgj44mSq87XWF_biRLwfxrFpAFR167EfBbY5q6FRbsXqiV0Eiv9l9DmGK5Y8"/>
+<span class="absolute top-4 left-4 px-space-sm py-1 rounded-full bg-primary/90 text-secondary-fixed text-label-sm font-label-sm uppercase tracking-wider">Dessert</span>
+<div class="absolute bottom-3 right-3 flex items-center gap-1 bg-surface-container-lowest/95 px-2 py-0.5 rounded-md shadow">
+<span class="material-symbols-outlined text-[14px] text-secondary" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">5.0</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-baseline justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary">Chocolate Brownie</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-serif font-bold">₹149</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs leading-relaxed">
+                Warm molten fudge brownie enriched with Belgian dark chocolate, served with a scoop of artisan Madagascar vanilla ice cream.
+              </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between bg-surface-container-low/50 -mx-space-lg -mb-space-lg p-space-md">
+<span class="font-label-sm text-label-sm uppercase text-outline">Chef's Signature</span>
+<button class="inline-flex items-center gap-1 px-space-md py-1.5 rounded-lg bg-primary hover:bg-primary-container text-surface hover:text-secondary-fixed transition-colors font-label-sm text-label-sm uppercase tracking-wider" onclick="handleAddToOrder('Chocolate Brownie', '₹149')">
+<span>Add</span>
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- ITEM 8: Vanilla Ice Cream -->
+<div class="menu-item-card flex flex-col rounded-2xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group" data-category="desserts">
+<div class="relative h-56 w-full overflow-hidden bg-primary-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Double churned artisan Madagascar bourbon vanilla bean ice cream in a chilled crystal bowl, garnished with golden caramelized almond flakes, fresh mint leaf, and wild honey drizzle." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMhPcsR8Fp_Bb-ut7KHQerT7YiTtNjSvh-mvqGgHScr0J22y9Z3bc_dl3SkVUH5Y1TkxMLd-L_YQCbmSJsgndTtulGM4rwlEsv4luARiHinCgnhv3qGcWRBI5wVlewLKFJuLqcq_j1rrW12NmNhYE7FE2BwEnFHPbVFPwrxSWUjq2LjZ_eS_9U5my4Juz6ijm2sruptTi3wz3lqdJtg-ZZ94u1mHahN9Lpq_fUWt0"/>
+<span class="absolute top-4 left-4 px-space-sm py-1 rounded-full bg-primary/90 text-secondary-fixed text-label-sm font-label-sm uppercase tracking-wider">Dessert</span>
+<div class="absolute bottom-3 right-3 flex items-center gap-1 bg-surface-container-lowest/95 px-2 py-0.5 rounded-md shadow">
+<span class="material-symbols-outlined text-[14px] text-secondary" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">4.8</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-baseline justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary">Vanilla Ice Cream</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-serif font-bold">₹99</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs leading-relaxed">
+                Double-churned velvety vanilla bean ice cream garnished with caramelized almond slivers and gold honey drizzle.
+              </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between bg-surface-container-low/50 -mx-space-lg -mb-space-lg p-space-md">
+<span class="font-label-sm text-label-sm uppercase text-outline">Organic Dairy</span>
+<button class="inline-flex items-center gap-1 px-space-md py-1.5 rounded-lg bg-primary hover:bg-primary-container text-surface hover:text-secondary-fixed transition-colors font-label-sm text-label-sm uppercase tracking-wider" onclick="handleAddToOrder('Vanilla Ice Cream', '₹99')">
+<span>Add</span>
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- ITEM 9: Gulab Jamun -->
+<div class="menu-item-card flex flex-col rounded-2xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group" data-category="desserts">
+<div class="relative h-56 w-full overflow-hidden bg-primary-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Pair of warm golden bronze Gulab Jamun milk dumplings immersed in fragrant saffron cardamom rose syrup, garnished with slivered pistachios and silver varq leaf in an ornamental brass dish." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiyc0aj6yvdR9u14l617gbVKWeW6iU7PwaFoSYOC-_DmT5lHfiWAZhLGYBa6nPFOBIPqv9CTl_YFag4YuQX8IrO5QkU_9T8r-kNwyJZUIgNowLcKoZBg0IsmE7zjOHrQssL8gxcIVaM5rGRrMzxpYrxGov_nJuI5YrG_lLpRTPfnKI9q1_jn9X2BPm9fPpkEvKPhN1G1zxCthi84slpEpoGQVeK_lHR-l5IE_x2JM"/>
+<span class="absolute top-4 left-4 px-space-sm py-1 rounded-full bg-primary/90 text-secondary-fixed text-label-sm font-label-sm uppercase tracking-wider">Dessert</span>
+<div class="absolute bottom-3 right-3 flex items-center gap-1 bg-surface-container-lowest/95 px-2 py-0.5 rounded-md shadow">
+<span class="material-symbols-outlined text-[14px] text-secondary" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">4.9</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-baseline justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary">Gulab Jamun</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-serif font-bold">₹89</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs leading-relaxed">
+                Traditional delicate golden milk dumplings steeped in warm rosewater and green cardamom-infused sugar nectar.
+              </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between bg-surface-container-low/50 -mx-space-lg -mb-space-lg p-space-md">
+<span class="font-label-sm text-label-sm uppercase text-outline">Royal Heritage</span>
+<button class="inline-flex items-center gap-1 px-space-md py-1.5 rounded-lg bg-primary hover:bg-primary-container text-surface hover:text-secondary-fixed transition-colors font-label-sm text-label-sm uppercase tracking-wider" onclick="handleAddToOrder('Gulab Jamun', '₹89')">
+<span>Add</span>
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- ITEM 10: Fresh Lime Juice -->
+<div class="menu-item-card flex flex-col rounded-2xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group" data-category="beverages">
+<div class="relative h-56 w-full overflow-hidden bg-primary-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Chilled tall crystal glass of fresh lime juice with crushed ice crystals, fresh spearmint sprigs, lime wheel rim, and delicate Himalayan pink salt mist around the glass against a warm amber backdrop." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtRZDRDMoB8K5F09q3xyyjUo1dHynVn-M19HHHnKQ9oscPbXJluT-5H9suHcANMnHHZGnufMem3LNUOij0XXIswvGaj7n39YJQGEbUEABrceEcb9TLgc9M3anGUXvZS3yCvBNdyhl3cU3-XZAQQ-vGxbT-9QmANyaf1Kjb0pewHPV18Wj9b_30qzA934cl4P04FKHpdse5YCXzer0YPPr2pg1s5LWuf9fPin40YdU"/>
+<span class="absolute top-4 left-4 px-space-sm py-1 rounded-full bg-primary/90 text-secondary-fixed text-label-sm font-label-sm uppercase tracking-wider">Beverage</span>
+<div class="absolute bottom-3 right-3 flex items-center gap-1 bg-surface-container-lowest/95 px-2 py-0.5 rounded-md shadow">
+<span class="material-symbols-outlined text-[14px] text-secondary" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">4.8</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-baseline justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary">Fresh Lime Juice</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-serif font-bold">₹79</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs leading-relaxed">
+                Zesty freshly squeezed hand-picked limes with crushed mint leaves, pure cane syrup, and cracked Himalayan pink salt.
+              </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between bg-surface-container-low/50 -mx-space-lg -mb-space-lg p-space-md">
+<span class="font-label-sm text-label-sm uppercase text-outline">Hand Pressed</span>
+<button class="inline-flex items-center gap-1 px-space-md py-1.5 rounded-lg bg-primary hover:bg-primary-container text-surface hover:text-secondary-fixed transition-colors font-label-sm text-label-sm uppercase tracking-wider" onclick="handleAddToOrder('Fresh Lime Juice', '₹79')">
+<span>Add</span>
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- ITEM 11: Cold Coffee -->
+<div class="menu-item-card flex flex-col rounded-2xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group" data-category="beverages">
+<div class="relative h-56 w-full overflow-hidden bg-primary-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Frothy thick iced cold coffee in a frosted glass tumbler crowned with a scoop of coffee gelato, cocoa powder dusting, and dark roasted Arabica coffee beans alongside." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYJ8MhhdpGqBvNpQXUZgim9TPFNojhnNAwOLTjWv8MXR4x_psSZPfk39EXqcrCTEYc5W8XVYdTwgBMihTqS1U7tvDxS6oyEC8GcMgk5qVDnrHisLekgFYo-YhQkM-f1rg7HUwDapb0Of1FvvJMu9DlMZMVAK_btpwahR5PNaojjxYfCJTvNke1dJ81UF2ygZSF-oMsmh9ShcvPydTLRSeokHfZcDqIsWfJp2IB1HA"/>
+<span class="absolute top-4 left-4 px-space-sm py-1 rounded-full bg-primary/90 text-secondary-fixed text-label-sm font-label-sm uppercase tracking-wider">Beverage</span>
+<div class="absolute bottom-3 right-3 flex items-center gap-1 bg-surface-container-lowest/95 px-2 py-0.5 rounded-md shadow">
+<span class="material-symbols-outlined text-[14px] text-secondary" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">4.9</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-baseline justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary">Cold Coffee</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-serif font-bold">₹129</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs leading-relaxed">
+                Double shot espresso shaken with chilled creamy milk, chocolate dust, and a generous scoop of coffee gelato.
+              </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between bg-surface-container-low/50 -mx-space-lg -mb-space-lg p-space-md">
+<span class="font-label-sm text-label-sm uppercase text-outline">Estate Arabica</span>
+<button class="inline-flex items-center gap-1 px-space-md py-1.5 rounded-lg bg-primary hover:bg-primary-container text-surface hover:text-secondary-fixed transition-colors font-label-sm text-label-sm uppercase tracking-wider" onclick="handleAddToOrder('Cold Coffee', '₹129')">
+<span>Add</span>
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- ITEM 12: Mango Milkshake -->
+<div class="menu-item-card flex flex-col rounded-2xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 group" data-category="beverages">
+<div class="relative h-56 w-full overflow-hidden bg-primary-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Thick velvety Alphonso mango milkshake in an elegant goblet crowned with chopped pistachios, delicate saffron threads, and fresh mango compote in soft ambient afternoon dining light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDj3WFr1d-fyOWKDoVA33lnpMI-vP15nXrYUtn6XwdtDpr4_94cxoGfvhYZ6Zj_koDXBYLqlHCBAAyoGIRfUVJGhHOWpyXAR7K3L2q3AHM0BTIOg5o38m2EGmilySZ9T_NPsyRPhgFebVljUEaSO_FCiMaXwWXox39iv3Y9ep_fGa404qYFKlNjAx5ozUFEBppQPbKNcQ9lOGepM4h2wF3Oo5erKatkZH21AAahJbg"/>
+<span class="absolute top-4 left-4 px-space-sm py-1 rounded-full bg-primary/90 text-secondary-fixed text-label-sm font-label-sm uppercase tracking-wider">Beverage</span>
+<div class="absolute bottom-3 right-3 flex items-center gap-1 bg-surface-container-lowest/95 px-2 py-0.5 rounded-md shadow">
+<span class="material-symbols-outlined text-[14px] text-secondary" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">4.9</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-baseline justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-primary">Mango Milkshake</h3>
+<span class="font-headline-sm text-headline-sm text-secondary font-serif font-bold">₹149</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs leading-relaxed">
+                Luscious Alphonso mango pulp blended smooth with thick organic milk, saffron strands, and crushed pistachios.
+              </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between bg-surface-container-low/50 -mx-space-lg -mb-space-lg p-space-md">
+<span class="font-label-sm text-label-sm uppercase text-outline">Seasonal Alphonso</span>
+<button class="inline-flex items-center gap-1 px-space-md py-1.5 rounded-lg bg-primary hover:bg-primary-container text-surface hover:text-secondary-fixed transition-colors font-label-sm text-label-sm uppercase tracking-wider" onclick="handleAddToOrder('Mango Milkshake', '₹149')">
+<span>Add</span>
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick Cart Notification Toast (Hidden by default, triggered by Add button) -->
+<div class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none" id="order-toast">
+<div class="flex items-center gap-space-sm bg-primary text-surface px-space-lg py-space-md rounded-xl shadow-2xl">
+<span class="material-symbols-outlined text-secondary-fixed text-[24px]">check_circle</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-secondary-fixed" id="order-toast-title">Item Added</span>
+<span class="font-body-sm text-body-sm text-surface-container-high" id="order-toast-sub">Added to your table order</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- RESERVATION SECTION -->
+<section class="w-full bg-surface py-24 lg:py-32 relative overflow-hidden" id="reserve">
+<div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin">
+<!-- Section Header -->
+<div class="flex flex-col items-center text-center mb-space-xl">
+<span class="font-label-md text-label-md uppercase tracking-[0.2em] text-secondary font-bold">Fine Dining Reservations</span>
+<h2 class="font-headline-lg lg:font-display-lg text-headline-lg lg:text-display-lg text-primary tracking-tight mt-space-xs">
+          Reserve Your Table
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl mt-space-xs">
+          Reserve your table today and enjoy a wonderful dining experience!
+        </p>
+<div class="h-1 w-20 bg-secondary-fixed mt-space-md rounded-full"></div>
+</div>
+<!-- Main Reservation Split Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- Left Side: Dining Perks & Ambience Card -->
+<div class="lg:col-span-5 flex flex-col gap-space-lg">
+<div class="relative rounded-2xl overflow-hidden bg-primary text-surface p-space-xl shadow-xl">
+<!-- Background Image overlay -->
+<div class="absolute inset-0 z-0 opacity-25">
+<div class="w-full h-full bg-cover bg-center" data-alt="Chic table setting with polished golden flatware, linen napkins, crystal stemware, and flickering warm candles in a quiet romantic corner booth." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBO_r26RRdVJAWmoU5M34n-6589JGDEUOfSOa2Yd6uQPIDa6MuBHOsxZ-L1zA9tbr0OH7o5i9WNKHoxHYU0mGgCj9y7q-ASeFGbEojeo2D-pYh7eBde4sObG3M8mtxJqN817rDqyJqLSO2zxsBRNYtUc_e5EJHRU164xe1ZvnpcErtCLKd35CIiY9Gflhu6X2A0Bbr2yMZAY20NYZ7nlNCiN7GRtpOV-NdL2U3bxCc");'></div>
+</div>
+<div class="relative z-10 flex flex-col gap-space-lg">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary-fixed">The Experience</span>
+<h3 class="font-headline-md text-headline-md text-surface font-serif mt-space-xs">Bespoke Table Service</h3>
+<p class="font-body-sm text-body-sm text-surface-container-high mt-space-xs leading-relaxed">
+                  Every reservation includes personalised table arrangements, a dedicated service captain, and optional pairing consultations with our certified sommelier.
+                </p>
+</div>
+<!-- Dining Perks List -->
+<div class="space-y-space-md pt-space-xs">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-secondary-fixed/20 text-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">cloud_upload</span>
+</div>
+<span class="font-body-md text-body-md text-surface">Complimentary Chef Amuse-Bouche</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-secondary-fixed/20 text-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">local_parking</span>
+</div>
+<span class="font-body-md text-body-md text-surface">Complimentary Valet Parking Available</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-secondary-fixed/20 text-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">deck</span>
+</div>
+<span class="font-body-md text-body-md text-surface">Private Booths &amp; Terrace Dining Options</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-secondary-fixed/20 text-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">schedule</span>
+</div>
+<span class="font-body-md text-body-md text-surface">Priority Table Hold (Up to 20 minutes)</span>
+</div>
+</div>
+<!-- Direct Hotline Card -->
+<div class="mt-space-md p-space-md rounded-xl bg-primary-container/80 backdrop-blur-sm flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-secondary-fixed-dim uppercase tracking-wider block">Immediate Inquiries</span>
+<a class="font-headline-sm text-headline-sm text-secondary-fixed hover:underline" href="tel:+919876543210">+91 98765 43210</a>
+</div>
+<div class="w-10 h-10 rounded-full bg-secondary-fixed text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">call</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Side: Interactive Reservation Form -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-space-lg lg:p-space-xl rounded-2xl shadow-xl relative">
+<!-- Submission Confirmation Card (Initially hidden) -->
+<div class="hidden flex-col items-center text-center py-space-xl px-space-md" id="reservation-success-message">
+<div class="w-16 h-16 rounded-full bg-secondary-container/40 text-secondary flex items-center justify-center mb-space-md animate-bounce">
+<span class="material-symbols-outlined text-[36px]">verified</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Reservation Confirmed!</span>
+<h3 class="font-headline-md text-headline-md text-primary mt-space-xs font-serif" id="confirm-headline">
+              We look forward to hosting you.
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md mt-space-md leading-relaxed" id="confirm-details">
+              Thank you. We have reserved your table. A confirmation SMS &amp; email has been dispatched.
+            </p>
+<button class="mt-space-xl inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-primary text-surface font-label-md text-label-md uppercase tracking-wider hover:bg-primary-container hover:text-secondary-fixed transition-colors" onclick="resetReservationForm()">
+<span class="material-symbols-outlined text-[16px]">edit_calendar</span>
+<span>Make Another Reservation</span>
+</button>
+</div>
+<!-- The Form -->
+<form class="space-y-space-md" id="reservation-form" onsubmit="handleReservationSubmit(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<!-- Full Name -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="res-name">Full Name *</label>
+<div class="relative">
+<input class="w-full px-space-md py-3 rounded-lg bg-surface-container-low text-on-surface placeholder:text-outline/60 focus:outline-none focus:ring-2 focus:ring-secondary-fixed text-body-md font-body-md transition-all" id="res-name" placeholder="Lord / Lady Carrington" required="" type="text"/>
+<span class="material-symbols-outlined absolute right-3 top-3.5 text-outline text-[18px]">person</span>
+</div>
+</div>
+<!-- Email Address -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="res-email">Email Address *</label>
+<div class="relative">
+<input class="w-full px-space-md py-3 rounded-lg bg-surface-container-low text-on-surface placeholder:text-outline/60 focus:outline-none focus:ring-2 focus:ring-secondary-fixed text-body-md font-body-md transition-all" id="res-email" placeholder="guest@goldenspoon.com" required="" type="email"/>
+<span class="material-symbols-outlined absolute right-3 top-3.5 text-outline text-[18px]">mail</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<!-- Phone Number -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="res-phone">Phone Number *</label>
+<div class="relative">
+<input class="w-full px-space-md py-3 rounded-lg bg-surface-container-low text-on-surface placeholder:text-outline/60 focus:outline-none focus:ring-2 focus:ring-secondary-fixed text-body-md font-body-md transition-all" id="res-phone" placeholder="+91 98765 43210" required="" type="tel"/>
+<span class="material-symbols-outlined absolute right-3 top-3.5 text-outline text-[18px]">call</span>
+</div>
+</div>
+<!-- Date Picker -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="res-date">Reservation Date *</label>
+<div class="relative">
+<input class="w-full px-space-md py-3 rounded-lg bg-surface-container-low text-on-surface focus:outline-none focus:ring-2 focus:ring-secondary-fixed text-body-md font-body-md transition-all" id="res-date" min="2026-11-24" required="" type="date"/>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<!-- Dining Time Slot -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="res-time">Preferred Time *</label>
+<div class="relative">
+<select class="w-full px-space-md py-3 rounded-lg bg-surface-container-low text-on-surface focus:outline-none focus:ring-2 focus:ring-secondary-fixed text-body-md font-body-md transition-all appearance-none cursor-pointer" id="res-time" required="">
+<option disabled="" selected="" value="">Select dining hour</option>
+<option value="12:30 PM">12:30 PM (Lunch)</option>
+<option value="1:30 PM">1:30 PM (Lunch)</option>
+<option value="7:00 PM">7:00 PM (Dinner)</option>
+<option value="8:00 PM">8:00 PM (Prime Dinner)</option>
+<option value="9:00 PM">9:00 PM (Late Dinner)</option>
+<option value="9:30 PM">9:30 PM (Late Dinner)</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-3.5 text-outline text-[18px] pointer-events-none">expand_more</span>
+</div>
+</div>
+<!-- Guest Count -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="res-guests">Number of Guests *</label>
+<div class="relative">
+<select class="w-full px-space-md py-3 rounded-lg bg-surface-container-low text-on-surface focus:outline-none focus:ring-2 focus:ring-secondary-fixed text-body-md font-body-md transition-all appearance-none cursor-pointer" id="res-guests" required="">
+<option disabled="" selected="" value="">Select party size</option>
+<option value="1 Guest">1 Guest (Solo Dining)</option>
+<option value="2 Guests">2 Guests (Couple / Date)</option>
+<option value="4 Guests">4 Guests (Family / Friends)</option>
+<option value="6 Guests">6 Guests (Small Celebration)</option>
+<option value="8+ Private Party">8+ Guests (Private Dining Hall)</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-3.5 text-outline text-[18px] pointer-events-none">groups</span>
+</div>
+</div>
+</div>
+<!-- Special Requests / Notes -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="res-notes">Special Requests (Optional)</label>
+<textarea class="w-full px-space-md py-3 rounded-lg bg-surface-container-low text-on-surface placeholder:text-outline/60 focus:outline-none focus:ring-2 focus:ring-secondary-fixed text-body-md font-body-md transition-all" id="res-notes" placeholder="Anniversary table, window seat, dietary restrictions, quiet corner..." rows="3"></textarea>
+</div>
+<!-- Submit Button -->
+<button class="w-full py-space-md px-space-lg rounded-lg bg-primary hover:bg-primary-container text-surface hover:text-secondary-fixed font-label-lg text-label-lg uppercase tracking-widest shadow-xl flex items-center justify-center gap-space-sm transition-all duration-300 group" type="submit">
+<span>Confirm Reservation</span>
+<span class="material-symbols-outlined text-[20px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-primary text-surface pt-space-xl pb-space-lg" id="contact"><div class="max-w-[1320px] mx-auto px-margin-mobile lg:px-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl pb-space-xl"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><span class="font-headline-sm text-headline-sm text-surface">The Golden Spoon</span></div><p class="font-body-sm text-body-sm text-surface-container-high leading-relaxed">A culinary sanctuary where heritage meets innovation. Experience exquisite flavors and unforgettable fine dining moments.</p></div><div class="flex flex-col gap-space-md"><span class="font-label-lg text-label-lg uppercase text-secondary-fixed tracking-wider">Quick Links</span><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm"><li class="leading-normal"><a class="text-surface-container-high hover:text-secondary-fixed transition-colors" data-path="home" href="#home">Home</a></li><li class="leading-normal"><a class="text-surface-container-high hover:text-secondary-fixed transition-colors" data-path="our-story" href="#about">About Us</a></li><li class="leading-normal"><a class="text-surface-container-high hover:text-secondary-fixed transition-colors" data-path="menu" href="#menu">Menu</a></li><li class="leading-normal"><a class="text-surface-container-high hover:text-secondary-fixed transition-colors" data-path="reserve-table" href="#reserve">Reserve a Table</a></li><li class="leading-normal"><a class="text-surface-container-high hover:text-secondary-fixed transition-colors" data-path="private-dining" href="#">Private Dining</a></li><li class="leading-normal"><a class="text-surface-container-high hover:text-secondary-fixed transition-colors" data-path="gift-cards" href="#">Gift Cards</a></li></ul></div><div class="flex flex-col gap-space-md"><span class="font-label-lg text-label-lg uppercase text-secondary-fixed tracking-wider">Opening Hours</span><div class="flex flex-col gap-space-sm font-body-sm text-body-sm text-surface-container-high"><div><p class="font-label-md text-label-md text-surface uppercase">Monday – Friday</p><p class="text-secondary-fixed-dim">10:00 AM – 10:00 PM</p></div><div><p class="font-label-md text-label-md text-surface uppercase">Saturday – Sunday</p><p class="text-secondary-fixed-dim">9:00 AM – 11:00 PM</p></div></div></div><div class="flex flex-col gap-space-md"><span class="font-label-lg text-label-lg uppercase text-secondary-fixed tracking-wider">Contact &amp; Location</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-surface-container-high"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary-fixed">phone</span><span>+91 98765 43210</span></div><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary-fixed">mail</span><span>hello@goldenspoon.com</span></div><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary-fixed">location_on</span><span>Chennai, Tamil Nadu, India</span></div></div><div class="flex items-center gap-space-sm pt-space-xs"><a aria-label="Instagram" class="w-9 h-9 rounded-full bg-primary-container text-secondary-fixed flex items-center justify-center hover:bg-secondary-fixed hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">photo_camera</span></a><a aria-label="Facebook" class="w-9 h-9 rounded-full bg-primary-container text-secondary-fixed flex items-center justify-center hover:bg-secondary-fixed hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">public</span></a><a aria-label="YouTube" class="w-9 h-9 rounded-full bg-primary-container text-secondary-fixed flex items-center justify-center hover:bg-secondary-fixed hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">play_circle</span></a></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-surface-container-high"><p>©  The Golden Spoon. All Rights Reserved.</p><div class="flex items-center gap-space-md"><a class="hover:text-secondary-fixed transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a><span class="text-primary-container">•</span><a class="hover:text-secondary-fixed transition-colors" data-path="terms-of-service" href="#">Terms of Service</a></div></div></div></footer>
+<!-- AUTH MODAL (LOGIN / SIGN UP) -->
+<div aria-hidden="true" aria-labelledby="modal-title" aria-modal="true" class="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 opacity-0 pointer-events-none transition-opacity duration-300 ease-out" id="auth-modal" role="dialog">
+<!-- Semi-transparent Dark Backdrop with Blur -->
+<div class="fixed inset-0 bg-[#0c0603]/80 backdrop-blur-md transition-opacity duration-300" onclick="closeAuthModal()"></div>
+<!-- Modal Dialog Card -->
+<div class="relative w-full max-w-md bg-[#16100B] border border-[#fed65b]/30 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.85)] p-6 sm:p-8 overflow-hidden z-10 transform scale-95 transition-all duration-300 ease-out text-[#fbf9f5]" id="auth-modal-card">
+<!-- Subtle Golden Atmospheric Ambient Accent -->
+<div class="absolute -top-24 -right-24 w-48 h-48 rounded-full bg-[#fed65b]/10 blur-[60px] pointer-events-none"></div>
+<div class="absolute -bottom-24 -left-24 w-48 h-48 rounded-full bg-[#fed65b]/5 blur-[60px] pointer-events-none"></div>
+<!-- In-Modal Success Feedback Banner -->
+<div class="hidden items-center gap-2 p-3.5 mb-4 rounded-xl bg-emerald-950/80 border border-emerald-500/40 text-emerald-200 text-[13px] animate-fadeIn transition-all duration-300 shadow-lg" id="auth-modal-feedback" role="alert">
+<span class="material-symbols-outlined text-[20px] text-emerald-400 shrink-0">check_circle</span>
+<span class="font-medium" id="auth-modal-feedback-text">Logged in successfully!</span>
+</div>
+<!-- Close Button -->
+<button aria-label="Close modal" class="absolute top-4 right-4 sm:top-5 sm:right-5 w-9 h-9 rounded-full bg-[#2a1f17] border border-[#fed65b]/20 text-[#fed65b] hover:bg-[#fed65b] hover:text-[#110804] flex items-center justify-center transition-all duration-200 focus:outline-none" onclick="closeAuthModal()">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+<!-- Header / Branding -->
+<div class="text-center mb-6 pt-1">
+<div class="inline-flex items-center gap-1 text-[#fed65b] mb-1">
+<span class="material-symbols-outlined text-[20px]">restaurant</span>
+</div>
+<h3 class="font-headline-sm font-serif text-[22px] text-[#fbf9f5] tracking-wide" id="modal-title">Welcome to The Golden Spoon</h3>
+<p class="font-body-sm text-[13px] text-[#d6c3b6] mt-1">Access your dining reservations and tailored experiences</p>
+</div>
+<!-- Tab Switcher -->
+<div class="flex items-center p-1 rounded-xl bg-[#2a1f17]/90 border border-[#fed65b]/20 mb-6">
+<button class="flex-1 py-2 rounded-lg font-label-md text-[13px] font-bold uppercase tracking-wider transition-all duration-200 bg-[#fed65b] text-[#110804] shadow-sm" id="tab-btn-login" onclick="switchAuthTab('login')">
+        Log In
+      </button>
+<button class="flex-1 py-2 rounded-lg font-label-md text-[13px] font-medium uppercase tracking-wider transition-all duration-200 text-[#d6c3b6] hover:text-[#fed65b]" id="tab-btn-signup" onclick="switchAuthTab('signup')">
+        Sign Up
+      </button>
+</div>
+<!-- LOGIN FORM -->
+<form class="space-y-4" id="form-login" novalidate="" onsubmit="handleAuthSubmit(event, 'login')">
+<!-- Email or Phone -->
+<div class="space-y-1.5">
+<label class="block font-label-sm text-[12px] uppercase tracking-wider text-[#d6c3b6] font-semibold" for="login-identifier">
+          Email or Phone Number
+        </label>
+<div class="relative">
+<input class="w-full pl-10 pr-4 py-2.5 rounded-lg bg-[#241912] border border-[#fed65b]/20 text-[#fbf9f5] placeholder:text-[#80756f] text-[14px] focus:outline-none focus:border-[#fed65b] focus:ring-1 focus:ring-[#fed65b] transition-all" id="login-identifier" placeholder="guest@goldenspoon.com" type="text"/>
+<span class="material-symbols-outlined absolute left-3 top-2.5 text-[#fed65b]/80 text-[18px]">person</span>
+</div>
+<p class="hidden text-red-400 text-xs mt-1 transition-opacity duration-200 flex items-center gap-1" id="login-identifier-error"><span class="material-symbols-outlined text-[14px]">error</span><span>Email or phone number is required</span></p>
+</div>
+<!-- Password -->
+<div class="space-y-1.5">
+<div class="flex items-center justify-between">
+<label class="block font-label-sm text-[12px] uppercase tracking-wider text-[#d6c3b6] font-semibold" for="login-password">
+            Password
+          </label>
+<a class="text-[12px] text-[#fed65b] hover:text-[#ffe088] hover:underline transition-colors" href="javascript:void(0)" onclick="alert('Password reset link has been dispatched to your verified email or SMS.')">
+            Forgot Password?
+          </a>
+</div>
+<div class="relative">
+<input class="w-full pl-10 pr-10 py-2.5 rounded-lg bg-[#241912] border border-[#fed65b]/20 text-[#fbf9f5] placeholder:text-[#80756f] text-[14px] focus:outline-none focus:border-[#fed65b] focus:ring-1 focus:ring-[#fed65b] transition-all" id="login-password" placeholder="••••••••" type="password"/>
+<span class="material-symbols-outlined absolute left-3 top-2.5 text-[#fed65b]/80 text-[18px]">lock</span>
+<button aria-label="Toggle password visibility" class="absolute right-3 top-2.5 text-[#80756f] hover:text-[#fed65b] transition-colors focus:outline-none" onclick="togglePasswordVisibility('login-password', this)" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+</div>
+<p class="hidden text-red-400 text-xs mt-1 transition-opacity duration-200 flex items-center gap-1" id="login-password-error"><span class="material-symbols-outlined text-[14px]">error</span><span>Password is required</span></p>
+</div>
+<!-- Submit Button -->
+<button class="w-full mt-2 py-3 px-6 rounded-lg bg-gradient-to-r from-[#fed65b] via-[#fed65b] to-[#e9c349] hover:bg-[#ffe088] text-[#110804] font-label-md text-[13px] font-bold uppercase tracking-widest shadow-[0_4px_20px_rgba(254,214,91,0.3)] hover:shadow-[0_6px_25px_rgba(254,214,91,0.45)] transition-all duration-200 flex items-center justify-center gap-2 group" type="submit">
+<span>Log In</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
+</button>
+<!-- Alternate Switcher Prompt -->
+<p class="text-center text-[12px] text-[#d6c3b6] pt-1">
+        Don't have an account? 
+        <a class="text-[#fed65b] hover:underline font-semibold ml-1 cursor-pointer" onclick="switchAuthTab('signup')">Sign Up</a>
+</p>
+</form>
+<!-- SIGN UP FORM -->
+<form class="space-y-3.5 hidden" id="form-signup" novalidate="" onsubmit="handleAuthSubmit(event, 'signup')">
+<!-- Full Name -->
+<div class="space-y-1">
+<label class="block font-label-sm text-[12px] uppercase tracking-wider text-[#d6c3b6] font-semibold" for="signup-name">
+          Full Name
+        </label>
+<div class="relative">
+<input class="w-full pl-10 pr-4 py-2.5 rounded-lg bg-[#241912] border border-[#fed65b]/20 text-[#fbf9f5] placeholder:text-[#80756f] text-[14px] focus:outline-none focus:border-[#fed65b] focus:ring-1 focus:ring-[#fed65b] transition-all" id="signup-name" placeholder="Lord / Lady Carrington" type="text"/>
+<span class="material-symbols-outlined absolute left-3 top-2.5 text-[#fed65b]/80 text-[18px]">badge</span>
+</div>
+<p class="hidden text-red-400 text-xs mt-1 transition-opacity duration-200 flex items-center gap-1" id="signup-name-error"><span class="material-symbols-outlined text-[14px]">error</span><span>Full name is required</span></p>
+</div>
+<!-- Email Address -->
+<div class="space-y-1">
+<label class="block font-label-sm text-[12px] uppercase tracking-wider text-[#d6c3b6] font-semibold" for="signup-email">
+          Email Address
+        </label>
+<div class="relative">
+<input class="w-full pl-10 pr-4 py-2.5 rounded-lg bg-[#241912] border border-[#fed65b]/20 text-[#fbf9f5] placeholder:text-[#80756f] text-[14px] focus:outline-none focus:border-[#fed65b] focus:ring-1 focus:ring-[#fed65b] transition-all" id="signup-email" placeholder="guest@goldenspoon.com" type="email"/>
+<span class="material-symbols-outlined absolute left-3 top-2.5 text-[#fed65b]/80 text-[18px]">mail</span>
+</div>
+<p class="hidden text-red-400 text-xs mt-1 transition-opacity duration-200 flex items-center gap-1" id="signup-email-error"><span class="material-symbols-outlined text-[14px]">error</span><span>Email address is required</span></p>
+</div>
+<!-- Phone Number -->
+<div class="space-y-1">
+<label class="block font-label-sm text-[12px] uppercase tracking-wider text-[#d6c3b6] font-semibold" for="signup-phone">
+          Phone Number
+        </label>
+<div class="relative">
+<input class="w-full pl-10 pr-4 py-2.5 rounded-lg bg-[#241912] border border-[#fed65b]/20 text-[#fbf9f5] placeholder:text-[#80756f] text-[14px] focus:outline-none focus:border-[#fed65b] focus:ring-1 focus:ring-[#fed65b] transition-all" id="signup-phone" placeholder="+91 98765 43210" type="tel"/>
+<span class="material-symbols-outlined absolute left-3 top-2.5 text-[#fed65b]/80 text-[18px]">call</span>
+</div>
+<p class="hidden text-red-400 text-xs mt-1 transition-opacity duration-200 flex items-center gap-1" id="signup-phone-error"><span class="material-symbols-outlined text-[14px]">error</span><span>Phone number is required</span></p>
+</div>
+<!-- Password -->
+<div class="space-y-1">
+<label class="block font-label-sm text-[12px] uppercase tracking-wider text-[#d6c3b6] font-semibold" for="signup-password">
+          Password
+        </label>
+<div class="relative">
+<input class="w-full pl-10 pr-10 py-2.5 rounded-lg bg-[#241912] border border-[#fed65b]/20 text-[#fbf9f5] placeholder:text-[#80756f] text-[14px] focus:outline-none focus:border-[#fed65b] focus:ring-1 focus:ring-[#fed65b] transition-all" id="signup-password" placeholder="Create strong password" type="password"/>
+<span class="material-symbols-outlined absolute left-3 top-2.5 text-[#fed65b]/80 text-[18px]">lock</span>
+<button aria-label="Toggle password visibility" class="absolute right-3 top-2.5 text-[#80756f] hover:text-[#fed65b] transition-colors focus:outline-none" onclick="togglePasswordVisibility('signup-password', this)" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+</div>
+<p class="hidden text-red-400 text-xs mt-1 transition-opacity duration-200 flex items-center gap-1" id="signup-password-error"><span class="material-symbols-outlined text-[14px]">error</span><span>Password is required</span></p>
+</div>
+<!-- Submit Button -->
+<button class="w-full mt-2 py-3 px-6 rounded-lg bg-gradient-to-r from-[#fed65b] via-[#fed65b] to-[#e9c349] hover:bg-[#ffe088] text-[#110804] font-label-md text-[13px] font-bold uppercase tracking-widest shadow-[0_4px_20px_rgba(254,214,91,0.3)] hover:shadow-[0_6px_25px_rgba(254,214,91,0.45)] transition-all duration-200 flex items-center justify-center gap-2 group" type="submit">
+<span>Create Account</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-0.5 transition-transform">check_circle</span>
+</button>
+<!-- Alternate Switcher Prompt -->
+<p class="text-center text-[12px] text-[#d6c3b6] pt-1">
+        Already have an account? 
+        <a class="text-[#fed65b] hover:underline font-semibold ml-1 cursor-pointer" onclick="switchAuthTab('login')">Log In</a>
+</p>
+</form>
+</div>
+</div>
+<!-- Interactive Client-Side Vanilla JavaScript -->
+<script>
+    // Set minimum date picker to today
+    const datePicker = document.getElementById('res-date');
+    if (datePicker) {
+      const today = new Date().toISOString().split('T')[0];
+      datePicker.min = today;
+    }
+
+    // Dynamic Navigation ScrollSpy & Active Link Management
+    const navLinks = document.querySelectorAll('#primary-nav .nav-link');
+    const sections = [
+      document.getElementById('home'),
+      document.getElementById('about'),
+      document.getElementById('menu'),
+      document.getElementById('reserve'),
+      document.getElementById('contact')
+    ].filter(Boolean);
+
+    function setActiveNavLink(targetId) {
+      // Normalize targetId in case caller passes with '#'
+      const cleanId = targetId ? targetId.replace(/^#/, '') : '';
+
+      navLinks.forEach(link => {
+        // Reset ALL nav links to clean inactive state
+        link.classList.remove('text-[#fed65b]', 'border-[#fed65b]', 'font-bold');
+        link.classList.add('text-[#efeeea]/80', 'border-transparent', 'font-medium', 'border-b-2', 'pb-1');
+
+        const linkSection = link.getAttribute('data-section') || link.getAttribute('href').replace('#', '');
+        if (linkSection === cleanId) {
+          // Strictly highlight only matching link
+          link.classList.remove('text-[#efeeea]/80', 'border-transparent', 'font-medium');
+          link.classList.add('text-[#fed65b]', 'border-[#fed65b]', 'font-bold');
+        }
+      });
+    }
+
+    // IntersectionObserver for Highlighting Active Section on Scroll
+    let isClickScrolling = false;
+    let clickScrollTimeout;
+
+    const observerOptions = {
+      root: null,
+      rootMargin: '-20% 0px -55% 0px',
+      threshold: 0
+    };
+
+    const sectionObserver = new IntersectionObserver((entries) => {
+      if (isClickScrolling) return;
+
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          setActiveNavLink(entry.target.id);
+        }
+      });
+    }, observerOptions);
+
+    sections.forEach(section => {
+      sectionObserver.observe(section);
+    });
+
+    // Handle scroll to top or bottom edge
+    window.addEventListener('scroll', () => {
+      if (isClickScrolling) return;
+      if (window.scrollY < 80) {
+        setActiveNavLink('home');
+        return;
+      }
+      if ((window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 60)) {
+        setActiveNavLink('contact');
+      }
+    }, { passive: true });
+
+    // Smooth Anchor Scroll & Immediate Active Update
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const targetId = this.getAttribute('href');
+        if (targetId && targetId !== '#') {
+          const targetElem = document.querySelector(targetId);
+          if (targetElem) {
+            e.preventDefault();
+            const sectionName = targetId.replace('#', '');
+            setActiveNavLink(sectionName);
+
+            isClickScrolling = true;
+            clearTimeout(clickScrollTimeout);
+
+            targetElem.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+
+            clickScrollTimeout = setTimeout(() => {
+              isClickScrolling = false;
+            }, 800);
+          }
+        }
+      });
+    });
+
+    // Category Tabs Filtering Logic
+    const categoryTabs = document.querySelectorAll('.menu-tab-btn');
+    const menuCards = document.querySelectorAll('.menu-item-card');
+
+    categoryTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        categoryTabs.forEach(t => {
+          t.classList.remove('bg-secondary-fixed', 'text-primary', 'shadow-sm', 'font-bold');
+          t.classList.add('text-on-surface-variant', 'hover:text-primary', 'hover:bg-surface-variant', 'font-medium');
+        });
+        tab.classList.remove('text-on-surface-variant', 'hover:text-primary', 'hover:bg-surface-variant', 'font-medium');
+        tab.classList.add('bg-secondary-fixed', 'text-primary', 'shadow-sm', 'font-bold');
+
+        const selectedCategory = tab.getAttribute('data-filter');
+
+        menuCards.forEach(card => {
+          const itemCat = card.getAttribute('data-category');
+          if (selectedCategory === 'all' || itemCat === selectedCategory) {
+            card.classList.remove('hidden');
+            card.classList.add('flex');
+          } else {
+            card.classList.add('hidden');
+            card.classList.remove('flex');
+          }
+        });
+      });
+    });
+
+    // Toast Notification Micro-interaction for Add Item
+    let toastTimeout;
+    function handleAddToOrder(dishName, price) {
+      const toast = document.getElementById('order-toast');
+      const title = document.getElementById('order-toast-title');
+      const sub = document.getElementById('order-toast-sub');
+
+      title.textContent = dishName + " (" + price + ")";
+      sub.textContent = "Added to table order selection";
+
+      toast.classList.remove('translate-y-24', 'opacity-0');
+      toast.classList.add('translate-y-0', 'opacity-100');
+
+      clearTimeout(toastTimeout);
+      toastTimeout = setTimeout(() => {
+        toast.classList.add('translate-y-24', 'opacity-0');
+        toast.classList.remove('translate-y-0', 'opacity-100');
+      }, 3000);
+    }
+
+    // Reservation Form Submission
+    function handleReservationSubmit(event) {
+      event.preventDefault();
+      const name = document.getElementById('res-name').value;
+      const guests = document.getElementById('res-guests').value;
+      const date = document.getElementById('res-date').value;
+      const time = document.getElementById('res-time').value;
+
+      const form = document.getElementById('reservation-form');
+      const confirmation = document.getElementById('reservation-success-message');
+      const confirmDetails = document.getElementById('confirm-details');
+
+      confirmDetails.textContent = "Reservation Confirmed! Thank you, " + name + ". We have reserved your table for " + guests + " on " + date + " at " + time + ". A confirmation SMS & email has been dispatched.";
+
+      form.classList.add('hidden');
+      confirmation.classList.remove('hidden');
+      confirmation.classList.add('flex');
+    }
+
+    function resetReservationForm() {
+      const form = document.getElementById('reservation-form');
+      const confirmation = document.getElementById('reservation-success-message');
+
+      form.reset();
+      confirmation.classList.add('hidden');
+      confirmation.classList.remove('flex');
+      form.classList.remove('hidden');
+    }
+
+    // Modal Management Functions (Login / Sign Up)
+    const authModal = document.getElementById('auth-modal');
+    const authCard = document.getElementById('auth-modal-card');
+    const tabLogin = document.getElementById('tab-btn-login');
+    const tabSignup = document.getElementById('tab-btn-signup');
+    const formLogin = document.getElementById('form-login');
+    const formSignup = document.getElementById('form-signup');
+    const modalFeedback = document.getElementById('auth-modal-feedback');
+    const modalFeedbackText = document.getElementById('auth-modal-feedback-text');
+
+    const authInputs = ['login-identifier', 'login-password', 'signup-name', 'signup-email', 'signup-phone', 'signup-password'];
+
+    function setFieldError(fieldId, errorMsg) {
+      const input = document.getElementById(fieldId);
+      const errorElem = document.getElementById(fieldId + '-error');
+      if (input) {
+        input.classList.remove('border-[#fed65b]/20', 'focus:border-[#fed65b]', 'focus:ring-[#fed65b]');
+        input.classList.add('border-red-500', 'ring-1', 'ring-red-500', 'focus:border-red-500', 'focus:ring-red-500');
+      }
+      if (errorElem) {
+        if (errorMsg) {
+          const span = errorElem.querySelector('span:last-child');
+          if (span) span.textContent = errorMsg;
+        }
+        errorElem.classList.remove('hidden');
+      }
+    }
+
+    function clearFieldError(fieldId) {
+      const input = document.getElementById(fieldId);
+      const errorElem = document.getElementById(fieldId + '-error');
+      if (input) {
+        input.classList.remove('border-red-500', 'ring-1', 'ring-red-500', 'focus:border-red-500', 'focus:ring-red-500');
+        input.classList.add('border-[#fed65b]/20', 'focus:border-[#fed65b]', 'focus:ring-[#fed65b]');
+      }
+      if (errorElem) {
+        errorElem.classList.add('hidden');
+      }
+    }
+
+    function clearAllFormErrors() {
+      authInputs.forEach(id => clearFieldError(id));
+      if (modalFeedback) {
+        modalFeedback.classList.add('hidden');
+        modalFeedback.classList.remove('flex');
+      }
+    }
+
+    // Attach immediate input & focus listeners to clear errors as user types
+    authInputs.forEach(id => {
+      const input = document.getElementById(id);
+      if (input) {
+        input.addEventListener('input', () => clearFieldError(id));
+        input.addEventListener('focus', () => clearFieldError(id));
+      }
+    });
+
+    function openAuthModal(defaultTab = 'login') {
+      clearAllFormErrors();
+      switchAuthTab(defaultTab);
+      authModal.classList.remove('opacity-0', 'pointer-events-none');
+      authModal.classList.add('opacity-100', 'pointer-events-auto');
+      authCard.classList.remove('scale-95');
+      authCard.classList.add('scale-100');
+      document.body.style.overflow = 'hidden';
+      authModal.setAttribute('aria-hidden', 'false');
+    }
+
+    function closeAuthModal() {
+      authModal.classList.add('opacity-0', 'pointer-events-none');
+      authModal.classList.remove('opacity-100', 'pointer-events-auto');
+      authCard.classList.add('scale-95');
+      authCard.classList.remove('scale-100');
+      document.body.style.overflow = '';
+      authModal.setAttribute('aria-hidden', 'true');
+      clearAllFormErrors();
+    }
+
+    function switchAuthTab(tab) {
+      clearAllFormErrors();
+      if (tab === 'login') {
+        tabLogin.classList.remove('text-[#d6c3b6]', 'hover:text-[#fed65b]', 'font-medium');
+        tabLogin.classList.add('bg-[#fed65b]', 'text-[#110804]', 'font-bold', 'shadow-sm');
+
+        tabSignup.classList.remove('bg-[#fed65b]', 'text-[#110804]', 'font-bold', 'shadow-sm');
+        tabSignup.classList.add('text-[#d6c3b6]', 'hover:text-[#fed65b]', 'font-medium');
+
+        formLogin.classList.remove('hidden');
+        formSignup.classList.add('hidden');
+        const loginInput = document.getElementById('login-identifier');
+        if (loginInput) setTimeout(() => loginInput.focus(), 100);
+      } else {
+        tabSignup.classList.remove('text-[#d6c3b6]', 'hover:text-[#fed65b]', 'font-medium');
+        tabSignup.classList.add('bg-[#fed65b]', 'text-[#110804]', 'font-bold', 'shadow-sm');
+
+        tabLogin.classList.remove('bg-[#fed65b]', 'text-[#110804]', 'font-bold', 'shadow-sm');
+        tabLogin.classList.add('text-[#d6c3b6]', 'hover:text-[#fed65b]', 'font-medium');
+
+        formSignup.classList.remove('hidden');
+        formLogin.classList.add('hidden');
+        const signupInput = document.getElementById('signup-name');
+        if (signupInput) setTimeout(() => signupInput.focus(), 100);
+      }
+    }
+
+    function togglePasswordVisibility(inputId, btn) {
+      const input = document.getElementById(inputId);
+      const icon = btn.querySelector('.material-symbols-outlined');
+      if (input.type === 'password') {
+        input.type = 'text';
+        icon.textContent = 'visibility_off';
+      } else {
+        input.type = 'password';
+        icon.textContent = 'visibility';
+      }
+    }
+
+    let authCloseTimeout;
+    function handleAuthSubmit(event, type) {
+      event.preventDefault();
+
+      let isValid = true;
+      let firstInvalidInput = null;
+
+      if (type === 'login') {
+        const idElem = document.getElementById('login-identifier');
+        const pwElem = document.getElementById('login-password');
+
+        if (!idElem.value || idElem.value.trim() === '') {
+          setFieldError('login-identifier', 'Email or phone number is required');
+          isValid = false;
+          if (!firstInvalidInput) firstInvalidInput = idElem;
+        }
+
+        if (!pwElem.value || pwElem.value.trim() === '') {
+          setFieldError('login-password', 'Password is required');
+          isValid = false;
+          if (!firstInvalidInput) firstInvalidInput = pwElem;
+        }
+      } else {
+        const nameElem = document.getElementById('signup-name');
+        const emailElem = document.getElementById('signup-email');
+        const phoneElem = document.getElementById('signup-phone');
+        const pwElem = document.getElementById('signup-password');
+
+        if (!nameElem.value || nameElem.value.trim() === '') {
+          setFieldError('signup-name', 'Full name is required');
+          isValid = false;
+          if (!firstInvalidInput) firstInvalidInput = nameElem;
+        }
+
+        if (!emailElem.value || emailElem.value.trim() === '') {
+          setFieldError('signup-email', 'Email address is required');
+          isValid = false;
+          if (!firstInvalidInput) firstInvalidInput = emailElem;
+        }
+
+        if (!phoneElem.value || phoneElem.value.trim() === '') {
+          setFieldError('signup-phone', 'Phone number is required');
+          isValid = false;
+          if (!firstInvalidInput) firstInvalidInput = phoneElem;
+        }
+
+        if (!pwElem.value || pwElem.value.trim() === '') {
+          setFieldError('signup-password', 'Password is required');
+          isValid = false;
+          if (!firstInvalidInput) firstInvalidInput = pwElem;
+        }
+      }
+
+      if (!isValid) {
+        if (firstInvalidInput) firstInvalidInput.focus();
+        return;
+      }
+
+      // Valid form submission: show in-modal success feedback & bottom toast
+      const toast = document.getElementById('order-toast');
+      const title = document.getElementById('order-toast-title');
+      const sub = document.getElementById('order-toast-sub');
+
+      if (modalFeedback && modalFeedbackText) {
+        modalFeedback.classList.remove('hidden');
+        modalFeedback.classList.add('flex');
+        if (type === 'login') {
+          modalFeedbackText.textContent = "Logged in successfully! Welcome back.";
+        } else {
+          modalFeedbackText.textContent = "Account created successfully! Welcome to The Golden Spoon.";
+        }
+      }
+
+      if (type === 'login') {
+        const idVal = document.getElementById('login-identifier').value.trim();
+        title.textContent = "Welcome back!";
+        sub.textContent = "Logged in successfully as " + idVal;
+      } else {
+        const nameVal = document.getElementById('signup-name').value.trim();
+        title.textContent = "Account Created!";
+        sub.textContent = "Welcome to The Golden Spoon, " + nameVal;
+      }
+
+      toast.classList.remove('translate-y-24', 'opacity-0');
+      toast.classList.add('translate-y-0', 'opacity-100');
+
+      clearTimeout(toastTimeout);
+      toastTimeout = setTimeout(() => {
+        toast.classList.add('translate-y-24', 'opacity-0');
+        toast.classList.remove('translate-y-0', 'opacity-100');
+      }, 3500);
+
+      clearTimeout(authCloseTimeout);
+      authCloseTimeout = setTimeout(() => {
+        closeAuthModal();
+      }, 1200);
+    }
+
+    // Dismiss modal on Escape key
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !authModal.classList.contains('pointer-events-none')) {
+        closeAuthModal();
+      }
+    });
+  </script>
+</body></html>
